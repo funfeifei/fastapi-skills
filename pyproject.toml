@@ -1,0 +1,17 @@
+[project]
+name = "fastapi-skills"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "fastapi==0.104.1",
+    "httpx>=0.28.1",
+    "openai==1.54.0",
+    "pydantic==2.5.3",
+    "pydantic-settings==2.1.0",
+    "python-multipart==0.0.6",
+    "pyyaml==6.0.1",
+    "uvicorn==0.24.0",
+]
